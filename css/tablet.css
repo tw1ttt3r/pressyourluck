@@ -1,0 +1,15 @@
+ul {
+  display: none;
+}
+
+.mobile-list {
+  display: block;
+}
+
+.hamburguer-menu {
+  display: block;
+}
+
+li:active {
+  background-color: beige;
+}

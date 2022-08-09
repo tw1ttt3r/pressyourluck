@@ -41,7 +41,7 @@ li {
 li:hover {
   cursor: pointer;
 }
-
+/* 
 @media screen and (max-width: 768px) {
 
   ul {
@@ -61,11 +61,11 @@ li:hover {
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width:425px)  {
   li:active {
     background-color: red;
   }
-}
+} */
 
 
 /* mediums  < 768px */
