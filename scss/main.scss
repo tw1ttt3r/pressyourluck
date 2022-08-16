@@ -1,0 +1,41 @@
+@use 'reset';
+@import 'variables';
+@import 'mixins';
+
+#title {
+  font-size: $font-size;
+  border: $border;
+}
+
+.saludo {
+  justify-content: $align-saludo;
+  span {
+    color: $color-saludo;
+    @include message-style;
+    background-color: gray;
+
+    @media screen and (max-width: 768px) {
+      @include style-saludo-media(red);
+    }
+
+    @media screen and (max-width: 425px) {
+      @include style-saludo-media(yellow);
+    }
+  }
+}
+
+.respuesta {
+  justify-content: $align-respuesta;
+  span {
+    color: $color-respuesta;
+    @include message-style;
+    background-color: aqua;
+  }
+} 
+
+.container {
+  display: flex;
+  margin: 24px;
+}
+
+

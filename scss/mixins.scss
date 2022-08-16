@@ -1,0 +1,9 @@
+@mixin message-style {
+  border: $border-message;
+  padding: 16px;
+  border-radius: 16px;
+}
+
+@mixin style-saludo-media($background: pink) {
+  background-color: $background;
+}

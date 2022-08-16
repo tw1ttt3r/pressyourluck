@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+#title {
+  font-size: 50px;
+  border: 1px solid red;
+}
+
+.saludo {
+  justify-content: flex-start;
+}
+.saludo span {
+  color: green;
+  border: 1px dashed black;
+  padding: 16px;
+  border-radius: 16px;
+  background-color: gray;
+}
+@media screen and (max-width: 768px) {
+  .saludo span {
+    background-color: red;
+  }
+}
+@media screen and (max-width: 425px) {
+  .saludo span {
+    background-color: yellow;
+  }
+}
+
+.respuesta {
+  justify-content: flex-end;
+}
+.respuesta span {
+  color: brown;
+  border: 1px dashed black;
+  padding: 16px;
+  border-radius: 16px;
+  background-color: aqua;
+}
+
+.container {
+  display: flex;
+  margin: 24px;
+}
+
+/*# sourceMappingURL=main.css.map */
