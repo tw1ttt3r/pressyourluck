@@ -1,0 +1,33 @@
+header {
+  nav {
+    ul {
+      display: flex;
+      justify-content: space-around;
+      a {
+        flex-grow: 1;
+        li {
+          padding: 16px;
+          list-style: none;
+          text-align: center;
+  
+          &:hover {
+            background-color: azure;
+            cursor: pointer;
+  
+            @media screen and (max-width: 768px) {
+              background-color: red;
+            }
+  
+            @media screen and (max-width: 425px) {
+              background-color: yellow;
+            }
+          }
+
+          &.active {
+            color: pink;
+          }
+        }
+      }
+    }
+  }
+}

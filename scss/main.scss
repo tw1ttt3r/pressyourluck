@@ -1,6 +1,8 @@
 @use 'reset';
+@use 'contacto';
 @import 'variables';
 @import 'mixins';
+@import 'nav';
 
 #title {
   font-size: $font-size;
