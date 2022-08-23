@@ -22,21 +22,15 @@
 }
 
 @keyframes example {
-  from {
-    background-color: red;
-  }
-  to {
-    background-color: yellow;
-  }
+  from {background-color: red;}
+  to {background-color: yellow;}
 }
+
 @keyframes sobre {
-  from {
-    background-color: purple;
-  }
-  to {
-    background-color: red;
-  }
+  from { background-color: purple; }
+  to { background-color: red; }
 }
+
 @keyframes crecer {
   /* from {
     width: 0;
@@ -47,21 +41,26 @@
   0% {
     width: 0;
   }
+
   25% {
     /* width: 200px; */
     background-color: aquamarine;
   }
+
   50% {
     /* width: 400px; */
   }
+
   75% {
     /* width: 500px; */
     background-color: black;
   }
+
   100% {
     width: 600px;
   }
 }
+
 .contenedor-img {
   width: 0;
 }
@@ -78,20 +77,19 @@
 
 #control-img:hover {
   cursor: pointer;
-}
-#control-img:hover ~ .contenedor-img {
-  animation-name: verimagen;
-  animation-duration: 4s;
-  animation-fill-mode: forwards;
+  & ~ .contenedor-img {
+    animation-name: verimagen;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+  }
 }
 
 @keyframes verimagen {
   from {
     width: 0;
   }
+
   to {
-    width: 100%;
+    width: 100%; 
   }
 }
-
-/*# sourceMappingURL=main.css.map */
